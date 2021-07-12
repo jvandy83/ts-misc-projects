@@ -1,0 +1,24 @@
+{
+  "name": "stephen_girder_TS",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/metadata.js",
+    "start": "concurrently npm:start:*",
+    "start:dev": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "ts-cli": "^1.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
